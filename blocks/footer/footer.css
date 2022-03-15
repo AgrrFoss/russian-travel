@@ -1,0 +1,11 @@
+.footer {
+    padding: 0 48px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    @media (max-width: 320px) {
+        .footer {
+            padding: 0 16px 24px;
+            
+    }

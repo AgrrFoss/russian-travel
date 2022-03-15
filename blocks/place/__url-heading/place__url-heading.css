@@ -1,0 +1,22 @@
+.place__url-heading {
+    align-self: end;
+    color: #AAAAAA;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 12px;
+  }
+  @media (max-width: 320px) {
+    .place__url-heading {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      color: #AAAAAA;
+      align-self: start;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 2;
+      margin: 32px 16px 12px;
+    }
+  }

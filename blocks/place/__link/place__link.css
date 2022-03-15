@@ -1,0 +1,30 @@
+.place__link {
+    align-self: end;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    transition: opacity 1s ease;
+  }
+  .place__link:hover {
+    opacity: 0.8;
+  }
+
+  @media (max-width: 320px) {
+    .place__link {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      color: white;
+      align-self: start;
+      margin: 54px 16px 0;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.2;
+      transition: opacity 1s ease;
+    }
+    .place__link:hover {
+      opacity: 0.8;
+    }
+  }

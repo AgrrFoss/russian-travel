@@ -1,0 +1,29 @@
+.place__paragraph {
+  grid-column: 2/3;
+  grid-row: 2/3; 
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 26px;
+}
+@media (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 25px;
+  }
+}
+@media (max-width: 320px) {
+  .place__paragraph {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 16px 25px;
+  }
+  .place__paragraph:nth-of-type(2n) {
+    margin: 0 16px;
+  }
+}

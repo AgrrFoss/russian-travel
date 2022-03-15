@@ -1,0 +1,22 @@
+.cover__subtitle{
+    margin-top: 32px;
+    max-width: 360px;
+    max-height: 66px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    z-index: 3;
+  }
+  @media (max-width: 320px) {
+    .cover__subtitle{
+      margin-top: 16px;
+      max-width: 288px;
+      max-height: 48px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.1;
+      z-index: 3;
+    }
+  }
