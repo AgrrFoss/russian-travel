@@ -1,9 +1,9 @@
 .intro__text {
    -webkit-text-size-adjust: 100%;
    -ms-text-size-adjust: 100%;
-   -moz-text-size-adjust: 100%; 
+   -moz-text-size-adjust: 100%;
    -moz-osx-font-smoothing: grayscale;
-   -webkit-font-smoothing: antialiased; 
+   -webkit-font-smoothing: antialiased;
     max-width: 690px;
     margin-top: 40px;
     font-weight: 400;
