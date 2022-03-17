@@ -1,4 +1,9 @@
 .cover__title{
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; 
     margin: 0;
     max-width: 560px;
     max-height: 152px;
@@ -8,7 +13,7 @@
     line-height: 76px;
     z-index: 3;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 425px) {
     .cover__title{
       margin: 0;
       text-align: center;

@@ -79,7 +79,7 @@
     max-width: calc(100% - 96px);
   }  
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .places {
     max-width: 100%;
     padding: 64px 0;

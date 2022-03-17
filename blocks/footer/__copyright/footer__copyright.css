@@ -1,10 +1,16 @@
 .footer__copyright {
+  
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; 
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 425px) {
     .footer__copyright {
       margin: calc(48px - 32px) 0 0;
     }

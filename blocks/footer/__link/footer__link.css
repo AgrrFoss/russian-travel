@@ -1,4 +1,9 @@
 .footer__link {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; 
     color: white;
     margin-right: 18px;
     text-decoration: none;
@@ -6,7 +11,7 @@
     font-size: 16px;
     line-height: 18px;
    }
-   @media (max-width: 320px) {
+   @media (max-width: 425px) {
     .footer__link {
         display:block;
         color: white;

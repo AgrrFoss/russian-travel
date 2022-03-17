@@ -1,10 +1,17 @@
 .place__paragraph {
+  -webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%; 
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased; 
   grid-column: 2/3;
   grid-row: 2/3;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
   margin: 0 0 26px;
+
+
 }
 @media (max-width: 768px) {
   .place__paragraph {
@@ -13,7 +20,7 @@
     margin: 0 0 25px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 690px) {
   .place__paragraph {
     grid-column: 1/2;
     grid-row: 4/5;

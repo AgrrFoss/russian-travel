@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .footer {
    padding: 0 16px 24px;         
 }

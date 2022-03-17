@@ -26,13 +26,13 @@
     margin: 0 auto 80px;
     padding: 0;
     display: grid;
-    grid-template-columns: minmax(30%, 340px) minmax(50%, max-content);
+    grid-template-columns: minmax(25%, 340px) minmax(50%, max-content);
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     grid-gap: 48px 28px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 690px) {
   .place {
     margin: 0 auto 80px;
     padding: 0;

@@ -6,7 +6,7 @@
     flex-wrap: wrap;
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 425px) {
     .footer__menu-list {
     display: flex;
       flex-direction: column;
