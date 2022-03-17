@@ -1,9 +1,9 @@
 .cover__subtitle{
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%; 
+  -moz-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
     margin-top: 32px;
     max-width: 360px;
     max-height: 66px;
@@ -14,7 +14,7 @@
     z-index: 3;
   }
   @media (max-width: 425px) {
-    .cover__subtitle{
+    .cover__subtitle {
       margin-top: 16px;
       max-width: 288px;
       max-height: 48px;

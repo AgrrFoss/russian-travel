@@ -43,7 +43,7 @@
 
 @media (max-width: 425px) {
   .cover__background {
-    max-width: 100%px;
+    max-width: 100%;
     height: 200px;
 }
  }
